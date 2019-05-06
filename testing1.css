@@ -1,0 +1,347 @@
+/*NAVBAR STYLE*/
+
+* { box-sizing: border-box; }
+ul {
+    height: 2.500em;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #EEE;
+
+    font-size: 16px;
+}
+li {
+    position: relative;
+    display: block;
+    float: left;
+    margin-right: 1.563em;
+
+    height: 100%;
+    width: 6.25em;
+
+    cursor: pointer;
+    user-select: none;
+
+    background: #EEE;
+    color: #555;
+    text-align: center;
+    line-height: 2.5em;
+}
+li::before {
+    content: '';
+    position: absolute;
+    display: block;
+
+    left: -1.5em;
+
+    width: 0;
+    height: 0;
+
+    border-top: 2.5em solid transparent;
+    border-right: 1.563em solid #EEE;
+}
+li::after {
+    content: '';
+    position: absolute;
+    display: block;
+
+    top: 0;
+    right: -1.5em;
+
+    width: 0;
+    height: 0;
+
+    border-top: 2.5em solid #EEE;
+    border-right: 1.563em solid transparent;
+}
+
+/* Hover */
+
+li:hover {
+    color: #666;
+    background: #CCC;
+}
+li:hover::after {
+    border-top: 2.5em solid #CCC;
+    border-right: 1.563em solid transparent;
+}
+li:hover::before {
+    border-top: 2.5em solid transparent;
+    border-right: 1.563em solid #CCC;
+}
+
+/* Active */
+
+li:active {
+    color: #BBB;
+    background: #DDD;
+}
+li:active::after {
+    border-top: 2.5em solid #DDD;
+    border-right: 1.563em solid transparent;
+}
+li:active::before {
+    border-top: 2.5em solid transparent;
+    border-right: 1.563em solid #DDD;
+}
+
+
+/*TRANSITION STYLING*/
+
+*, :before, :after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.hide {
+    display: none;
+}
+
+.page__style {
+    background: #6D326D;
+    font-family: OpenSans-Regular, sans-serif;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin: auto auto;
+    overflow: hidden;
+}
+
+.page__description {
+    color: #ffffff;
+    font-weight: 300;
+    text-align: center;
+}
+.page__description1 {
+    color: #ffffff;
+    font-weight: 300;
+    text-align: center;
+}
+.page__description2 {
+    color: #ffffff;
+    font-weight: 300;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 300;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
+.btn_nav {
+    background: #002A32;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    padding: 17px 30px;
+    width: 146px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: red;
+}
+
+.animate_content {
+    animation: animate 3s ease;
+}
+
+@keyframes animate {
+    10%  {transform: scale(1, 0.002);}
+    35%  {transform: scale(0.2, 0.002); opacity: 1;}
+    50%  {transform: scale(0.2, 0.002); opacity: 0;}
+    85%  {transform: scale(1, 0.002); opacity: 1;}
+    100% {transform: scale(1, 1);}
+}
+
+.fadeIn {
+    z-index: 10;
+}
+
+/*  home (ROSSO FIORANO)
+-----------------------------------*/
+.ferrari {
+    background: rgb(114,13,19);
+}
+
+/*  Projects (BLU SCOZIA)
+-----------------------------------*/
+.home {
+    background: rgb(22,25,41);
+}
+/*  Skills (GIALLO MODENA)
+-----------------------------------*/
+.skills {
+    background: rgb(179,149,48);
+}
+/*  About (GRIGIO FERRO)
+-----------------------------------*/
+.about {
+    background: rgb(80,77,74);
+}
+/*  Contact (ROSSO CORSA)
+-----------------------------------*/
+.audi{
+    background: yellow;
+}
+/*****************************************************************
+~ Mobile media-queries (max-width: 767px)
+******************************************************************/
+
+@media only screen and (max-width: 767px){
+    .page__description1 h1 {
+        margin-top: 100px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .page__description2 h1 {
+        margin-top: 100px;
+    }
+}
+
+/* SCREEN STYLE*/
+.ferrarisplit {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    background: #000;
+}
+
+.ferrarisplit .ferrari {
+    position: relative;
+    flex-grow: 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.ferrarisplit:hover .ferrari {
+    opacity: 0.3;
+}
+
+.ferrarisplit .ferrari:hover {
+    flex-grow: 6;
+    opacity: 1;
+}
+.ferrarisplit .ferrari:nth-child(1) {
+    background: url("ferrari/ferrari1.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.ferrarisplit .ferrari:nth-child(2) {
+    background: url("ferrari/ferrari2.jpg") no-repeat center;
+    background-size: cover;
+}
+
+
+.ferrarisplit .ferrari:nth-child(3) {
+    background: url("ferrari/ferrari3.jpg") no-repeat center;
+    background-size: cover;
+}
+
+
+/*SPLIT SCREEN STYLE*/
+.audisplit {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    background: #000;
+}
+
+.audisplit .audi {
+    position: relative;
+    flex-grow: 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.audisplit:hover .audi {
+    opacity: 0.3;
+}
+
+.audisplit .audi:hover {
+    flex-grow: 5;
+    opacity: 1;
+}
+.audisplit .audi:nth-child(1) {
+    background: url("audi/audi1.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.audisplit .audi:nth-child(2) {
+    background: url("audi/audi2.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.audisplit .audi:nth-child(3) {
+    background: url("audi/audi3.jpg") no-repeat center;
+    background-size: cover;
+}
+
+/* SCREEN STYLE*/
+.mercedesplit {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    background: #000;
+}
+
+.mercedesplit .mercedes {
+    position: relative;
+    flex-grow: 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.mercedesplit:hover .mercedes {
+    opacity: 0.3;
+}
+
+.mercedesplit .mercedes:hover {
+    flex-grow: 6;
+    opacity: 1;
+}
+.mercedesplit .mercedes:nth-child(1) {
+    background: url("mercedes/mercedes1.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.mercedesplit .mercedes:nth-child(2) {
+    background: url("mercedes/mercedes2.jpg") no-repeat center;
+    background-size: cover;
+}
+
+
+.mercedesplit .mercedes:nth-child(3) {
+    background: url("mercedes/mercedes3.jpg") no-repeat center;
+    background-size: cover;
+}
+
+
+
+

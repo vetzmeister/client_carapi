@@ -1,7 +1,7 @@
 /*NAVBAR STYLE*/
 
 * { box-sizing: border-box; }
-ul {
+ulleft  {
     height: 2.500em;
     width: 100%;
     padding: 0;
@@ -219,7 +219,7 @@ a:hover {
 /* SCREEN STYLE*/
 .ferrarisplit {
     position: relative;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     background: #000;
 }
@@ -258,11 +258,29 @@ a:hover {
     background-size: cover;
 }
 
+.ferrarisplit .ferrari .content {
+    position: absolute;
+    color: black;
+    width: 400px;
+    height: auto;
+    background: #fff;
+    padding: 40px;
+    box-sizing: border-box;
+    transform: translateX(100%);
+    transition: 0.5s;
+    text-align: justify;
+}
+
+.ferrarisplit .ferrari:hover .content{
+    transform: translateX(0);
+    transition-delay: 1s;
+}
+
 
 /*SPLIT SCREEN STYLE*/
 .audisplit {
     position: relative;
-    height: 100vh;
+    height: 70vh;
     display: flex;
     background: #000;
 }
@@ -300,10 +318,28 @@ a:hover {
     background-size: cover;
 }
 
+.audisplit .audi .content {
+    position: absolute;
+    color: black;
+    width: 400px;
+    height: auto;
+    background: #fff;
+    padding: 40px;
+    box-sizing: border-box;
+    transform: translateX(100%);
+    transition: 0.5s;
+    text-align: justify;
+}
+
+.audisplit .audi:hover .content{
+    transform: translateX(0);
+    transition-delay: 1s;
+}
+
 /* SCREEN STYLE*/
 .mercedesplit {
     position: relative;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     background: #000;
 }
@@ -340,6 +376,24 @@ a:hover {
 .mercedesplit .mercedes:nth-child(3) {
     background: url("mercedes/mercedes3.jpg") no-repeat center;
     background-size: cover;
+}
+
+.mercedesplit .mercedes .content {
+    position: absolute;
+    color: black;
+    width: 400px;
+    height: auto;
+    background: #fff;
+    padding: 40px;
+    box-sizing: border-box;
+    transform: translateX(100%);
+    transition: 0.5s;
+    text-align: justify;
+}
+
+.mercedesplit .mercedes:hover .content{
+    transform: translateX(0);
+    transition-delay: 1s;
 }
 
 

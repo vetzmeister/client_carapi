@@ -1,12 +1,13 @@
 /*NAVBAR STYLE*/
 
 * { box-sizing: border-box; }
-ulleft  {
+.ul_left  {
     height: 2.500em;
     width: 100%;
     padding: 0;
     margin: 0;
     background: #EEE;
+    justify-content: end;
 
     font-size: 16px;
 }

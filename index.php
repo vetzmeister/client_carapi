@@ -1,16 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Testing2</title>
-    <link rel="stylesheet" type="text/css" href="testing2.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<?php 
+$page_title = 'Client car API';
+$pgDesc = 'Frontpage for the client side of our Car API';
+$keyWords = 'frontpage client car api';
 
-</head>
-<body>
+include ('partials/_head.php');
+include ('partials/_nav.php');
+
+$page_id = 'index';
+require_once('partials/_nav.php');
+?>
 
 <div class="parallax1">
     <div class="heading">
@@ -57,5 +55,6 @@
 
     <div class="parallax4">
     </div>
-</body>
-</html>
+    <?php
+        include ('partials/_footer.php');
+    ?>

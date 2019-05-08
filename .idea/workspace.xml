@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3236e2f-7cc8-40b8-b5a3-fd3d6e58b84a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Test-site.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Test-site.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audi/audi1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/audi/audi1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mercedes/mercedes1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mercedes/mercedes1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing1.css" beforeDir="false" afterPath="$PROJECT_DIR$/testing1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing1.html" beforeDir="false" afterPath="$PROJECT_DIR$/testing1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Old Tv effect/Transition effect (Old TV).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Old Tv effect/oldTv.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Old Tv effect/oldTv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wipescreen/wipeeffect.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wipescreen/wipeeffect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wipescreen/wipeeffect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing2.css" beforeDir="false" afterPath="$PROJECT_DIR$/testing2.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -135,6 +136,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21888413" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

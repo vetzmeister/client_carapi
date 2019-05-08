@@ -6,12 +6,16 @@
       <change afterPath="$PROJECT_DIR$/../Old Tv effect/oldTv.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Old Tv effect/oldTv.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/partials/_footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/partials/_head.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/partials/_header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/partials/_nav.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/showroom.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../wipescreen/wipeeffect.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../wipescreen/wipeeffect.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../wipescreen/wipeeffect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/testing2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/testing2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing2.html" beforeDir="false" afterPath="$PROJECT_DIR$/testing2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing2.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,17 +24,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testing2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -64,8 +58,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="452" />
-    <option name="y" value="23" />
+    <option name="x" value="53" />
+    <option name="y" value="36" />
     <option name="width" value="1244" />
     <option name="height" value="826" />
   </component>
@@ -133,7 +127,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21888413" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

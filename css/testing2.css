@@ -8,22 +8,22 @@ body, html {
 }
 
 .parallax1 {
-    background: url(mercedes/mercedes1.jpg);
+    background: url(../img/mercedes/mercedes1.jpg);
     min-height: 100%;
 }
 
 .parallax2 {
-    background: url(mercedes/mercedes1.jpg);
+    background: url(../img/mercedes/mercedes2.jpg);
     min-height: 60%;
 }
 
 .parallax3 {
-    background: url(mercedes/mercedes1.jpg);
+    background: url(../img/mercedes/mercedes3.jpg);
     min-height: 40%;
 }
 
 .parallax4 {
-    background: url(mercedes/mercedes1.jpg);
+    background: url(../img/audi/audi1.jpg);
     min-height: 100%;
 }
 
@@ -70,5 +70,11 @@ section {
     padding: 50px 80px;
 }
 
+.dark {
+    overflow: auto;
+    padding: 50px 80px;
+    background-color: #323232;
+    color: #f2f2f2;
+}
 
 

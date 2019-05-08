@@ -1,0 +1,71 @@
+body, html {
+    height: 100% !important;
+    margin: 0!important;
+    line-height: 180% !important;
+    color: #666!important;
+    text-align: center!important;
+
+}
+
+.parallax1 {
+    background: url(mercedes/mercedes1.jpg);
+    min-height: 100%;
+}
+
+.parallax2 {
+    background: url(mercedes/mercedes1.jpg);
+    min-height: 60%;
+}
+
+.parallax3 {
+    background: url(mercedes/mercedes1.jpg);
+    min-height: 40%;
+}
+
+.parallax4 {
+    background: url(mercedes/mercedes1.jpg);
+    min-height: 100%;
+}
+
+.parallax1, .parallax2, .parallax3, .parallax4 {
+    position: relative;
+    opacity: .75;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.heading {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 550%;
+    top: 45%;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-shadow: 0 0 10px #000;
+}
+
+.heading-sm {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 250%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px #000;
+}
+
+.two-col {
+    float: left;
+
+}
+
+section {
+    overflow: auto;
+}
+
+
+

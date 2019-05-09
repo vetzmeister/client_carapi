@@ -19,39 +19,42 @@ require_once('partials/_nav.php');
     <section>
         <h1>Parallax Automotive Website</h1>
             <h3>Learn how to create a parallax website using HTML5 and CSS3</h3>
-                <div class="two-col">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue sapien, egestas sed tempus ut, luctus eu mi. Ut dapibus eu odio sit amet bibendum. Cras venenatis ante augue. Nulla ac eleifend nisl, eget tincidunt lectus. Nam dictum nisi purus, sit amet mollis arcu porttitor et. Cras convallis euismod maximus. Nullam quis tincidunt sem, quis consectetur enim. Cras sed ex fermentum, suscipit turpis nec, pharetra neque. Suspendisse accumsan venenatis hendrerit.</p>
-                </div>
-                <div class="two-col">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue sapien, egestas sed tempus ut, luctus eu mi. Ut dapibus eu odio sit amet bibendum. Cras venenatis ante augue. Nulla ac eleifend nisl, eget tincidunt lectus. Nam dictum nisi purus, sit amet mollis arcu porttitor et. Cras convallis euismod maximus. Nullam quis tincidunt sem, quis consectetur enim. Cras sed ex fermentum, suscipit turpis nec, pharetra neque. Suspendisse accumsan venenatis hendrerit.</p>
-                </div>
+            <div class="two-col">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue sapien, egestas sed tempus ut, luctus eu mi. Ut dapibus eu odio sit amet bibendum. Cras venenatis ante augue. Nulla ac eleifend nisl, eget tincidunt lectus. Nam dictum nisi purus, sit amet mollis arcu porttitor et. Cras convallis euismod maximus. Nullam quis tincidunt sem, quis consectetur enim. Cras sed ex fermentum, suscipit turpis nec, pharetra neque. Suspendisse accumsan venenatis hendrerit.</p>
+            </div>
+            <div class="two-col">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue sapien, egestas sed tempus ut, luctus eu mi. Ut dapibus eu odio sit amet bibendum. Cras venenatis ante augue. Nulla ac eleifend nisl, eget tincidunt lectus. Nam dictum nisi purus, sit amet mollis arcu porttitor et. Cras convallis euismod maximus. Nullam quis tincidunt sem, quis consectetur enim. Cras sed ex fermentum, suscipit turpis nec, pharetra neque. Suspendisse accumsan venenatis hendrerit.</p>
+            </div>
     </section>
 
-    <div class="parallax2">
+    <div class="parallax2" id="about">
         <div class="heading-sm">
-            Fire Works
+            About
         </div>
     </div>
 
     <section class="dark">
         <h2>Learn how to create a parallax website using HTML5 and CSS3</h2>
-            <div class="two-col">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue sapien, egestas sed tempus ut, luctus eu mi. Ut dapibus eu odio sit amet bibendum. Cras venenatis ante augue. Nulla ac eleifend nisl, eget tincidunt lectus. Nam dictum nisi purus, sit amet mollis arcu porttitor et. Cras convallis euismod maximus. Nullam quis tincidunt sem, quis consectetur enim. Cras sed ex fermentum, suscipit turpis nec, pharetra neque. Suspendisse accumsan venenatis hendrerit.</p>
-            </div>
+        <div class="two-col">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue sapien, egestas sed tempus ut, luctus eu mi. Ut dapibus eu odio sit amet bibendum. Cras venenatis ante augue. Nulla ac eleifend nisl, eget tincidunt lectus. Nam dictum nisi purus, sit amet mollis arcu porttitor et. Cras convallis euismod maximus. Nullam quis tincidunt sem, quis consectetur enim. Cras sed ex fermentum, suscipit turpis nec, pharetra neque. Suspendisse accumsan venenatis hendrerit.</p>
+        </div>
     </section>
 
-    <div class="parallax3">
+    <div class="parallax3" id="contact">
+        <div class="heading-sm">
+            Contact
+        </div>
     </div>
 
-    <div class="dark">
+    <section class="dark">
         <h3>Fixed Background Scrolling</h3>
-            <div class="two-col">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue sapien, egestas sed tempus ut, luctus eu mi. Ut dapibus eu odio sit amet bibendum. Cras venenatis ante augue. Nulla ac eleifend nisl, eget tincidunt lectus. Nam dictum nisi purus, sit amet mollis arcu porttitor et. Cras convallis euismod maximus. Nullam quis tincidunt sem, quis consectetur enim. Cras sed ex fermentum, suscipit turpis nec, pharetra neque. Suspendisse accumsan venenatis hendrerit.</p>
-            </div>
-            <div class="two-col">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue sapien, egestas sed tempus ut, luctus eu mi. Ut dapibus eu odio sit amet bibendum. Cras venenatis ante augue. Nulla ac eleifend nisl, eget tincidunt lectus. Nam dictum nisi purus, sit amet mollis arcu porttitor et. Cras convallis euismod maximus. Nullam quis tincidunt sem, quis consectetur enim. Cras sed ex fermentum, suscipit turpis nec, pharetra neque. Suspendisse accumsan venenatis hendrerit.</p>
-            </div>
-    </div>
+        <div class="two-col">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue sapien, egestas sed tempus ut, luctus eu mi. Ut dapibus eu odio sit amet bibendum. Cras venenatis ante augue. Nulla ac eleifend nisl, eget tincidunt lectus. Nam dictum nisi purus, sit amet mollis arcu porttitor et. Cras convallis euismod maximus. Nullam quis tincidunt sem, quis consectetur enim. Cras sed ex fermentum, suscipit turpis nec, pharetra neque. Suspendisse accumsan venenatis hendrerit.</p>
+        </div>
+        <div class="two-col">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue sapien, egestas sed tempus ut, luctus eu mi. Ut dapibus eu odio sit amet bibendum. Cras venenatis ante augue. Nulla ac eleifend nisl, eget tincidunt lectus. Nam dictum nisi purus, sit amet mollis arcu porttitor et. Cras convallis euismod maximus. Nullam quis tincidunt sem, quis consectetur enim. Cras sed ex fermentum, suscipit turpis nec, pharetra neque. Suspendisse accumsan venenatis hendrerit.</p>
+        </div>
+</section>
 
     <div class="parallax4">
     </div>

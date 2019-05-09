@@ -17,14 +17,18 @@ require_once('partials/_nav.php');
 </div>
 
     <section class="dark">
-        <h1>Parallax Automotive Website</h1>
+        <div class="row space1">
+            <h1>Parallax Automotive Website</h1>
             <h3>Learn how to create a parallax website using HTML5 and CSS3</h3>
-            <div class="two-col">
+        </div>
+        <div class="row space1">
+            <div class="two-col col-md-6">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue sapien, egestas sed tempus ut, luctus eu mi. Ut dapibus eu odio sit amet bibendum. Cras venenatis ante augue. Nulla ac eleifend nisl, eget tincidunt lectus. Nam dictum nisi purus, sit amet mollis arcu porttitor et. Cras convallis euismod maximus. Nullam quis tincidunt sem, quis consectetur enim. Cras sed ex fermentum, suscipit turpis nec, pharetra neque. Suspendisse accumsan venenatis hendrerit.</p>
             </div>
-            <div class="two-col">
+            <div class="two-col col-md-6">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue sapien, egestas sed tempus ut, luctus eu mi. Ut dapibus eu odio sit amet bibendum. Cras venenatis ante augue. Nulla ac eleifend nisl, eget tincidunt lectus. Nam dictum nisi purus, sit amet mollis arcu porttitor et. Cras convallis euismod maximus. Nullam quis tincidunt sem, quis consectetur enim. Cras sed ex fermentum, suscipit turpis nec, pharetra neque. Suspendisse accumsan venenatis hendrerit.</p>
             </div>
+        </div>
     </section>
 
     <div class="parallax2" id="about">
@@ -34,9 +38,13 @@ require_once('partials/_nav.php');
     </div>
 
     <section class="dark">
-        <h2>Learn how to create a parallax website using HTML5 and CSS3</h2>
-        <div class="two-col">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue sapien, egestas sed tempus ut, luctus eu mi. Ut dapibus eu odio sit amet bibendum. Cras venenatis ante augue. Nulla ac eleifend nisl, eget tincidunt lectus. Nam dictum nisi purus, sit amet mollis arcu porttitor et. Cras convallis euismod maximus. Nullam quis tincidunt sem, quis consectetur enim. Cras sed ex fermentum, suscipit turpis nec, pharetra neque. Suspendisse accumsan venenatis hendrerit.</p>
+        <div class="row space1">
+            <h2>Learn how to create a parallax website using HTML5 and CSS3</h2>
+        </div>
+        <div class="row space1">    
+            <div class="two-col col-md-12">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue sapien, egestas sed tempus ut, luctus eu mi. Ut dapibus eu odio sit amet bibendum. Cras venenatis ante augue. Nulla ac eleifend nisl, eget tincidunt lectus. Nam dictum nisi purus, sit amet mollis arcu porttitor et. Cras convallis euismod maximus. Nullam quis tincidunt sem, quis consectetur enim. Cras sed ex fermentum, suscipit turpis nec, pharetra neque. Suspendisse accumsan venenatis hendrerit.</p>
+            </div>
         </div>
     </section>
 
@@ -47,12 +55,16 @@ require_once('partials/_nav.php');
     </div>
 
     <section class="dark">
-        <h3>Fixed Background Scrolling</h3>
-        <div class="two-col">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue sapien, egestas sed tempus ut, luctus eu mi. Ut dapibus eu odio sit amet bibendum. Cras venenatis ante augue. Nulla ac eleifend nisl, eget tincidunt lectus. Nam dictum nisi purus, sit amet mollis arcu porttitor et. Cras convallis euismod maximus. Nullam quis tincidunt sem, quis consectetur enim. Cras sed ex fermentum, suscipit turpis nec, pharetra neque. Suspendisse accumsan venenatis hendrerit.</p>
-        </div>
-        <div class="two-col">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue sapien, egestas sed tempus ut, luctus eu mi. Ut dapibus eu odio sit amet bibendum. Cras venenatis ante augue. Nulla ac eleifend nisl, eget tincidunt lectus. Nam dictum nisi purus, sit amet mollis arcu porttitor et. Cras convallis euismod maximus. Nullam quis tincidunt sem, quis consectetur enim. Cras sed ex fermentum, suscipit turpis nec, pharetra neque. Suspendisse accumsan venenatis hendrerit.</p>
+        <div class="row space1">
+            <h3>Fixed Background Scrolling</h3>
+        </div>    
+        <div class="row space1">
+            <div class="two-col col-md-6">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue sapien, egestas sed tempus ut, luctus eu mi. Ut dapibus eu odio sit amet bibendum. Cras venenatis ante augue. Nulla ac eleifend nisl, eget tincidunt lectus. Nam dictum nisi purus, sit amet mollis arcu porttitor et. Cras convallis euismod maximus. Nullam quis tincidunt sem, quis consectetur enim. Cras sed ex fermentum, suscipit turpis nec, pharetra neque. Suspendisse accumsan venenatis hendrerit.</p>
+            </div>
+            <div class="two-col col-md-6">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue sapien, egestas sed tempus ut, luctus eu mi. Ut dapibus eu odio sit amet bibendum. Cras venenatis ante augue. Nulla ac eleifend nisl, eget tincidunt lectus. Nam dictum nisi purus, sit amet mollis arcu porttitor et. Cras convallis euismod maximus. Nullam quis tincidunt sem, quis consectetur enim. Cras sed ex fermentum, suscipit turpis nec, pharetra neque. Suspendisse accumsan venenatis hendrerit.</p>
+            </div>
         </div>
 </section>
 

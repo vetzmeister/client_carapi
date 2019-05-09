@@ -1,4 +1,4 @@
-<nav class="dark" id="nav">
+<nav class="dark">
     <ol>
         <li><a href="index.php">Home</a></li>
         <li><a href="showroom.php">Cars</a></li>

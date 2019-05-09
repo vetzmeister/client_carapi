@@ -18,7 +18,7 @@
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item li_left">
-        <a class="nav-link" href="showrom.php">Cars</a>
+        <a class="nav-link" href="showroom.php">Cars</a>
       </li>
       <li class="nav-item li_left">
         <a class="nav-link" href="#about">About</a>

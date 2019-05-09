@@ -19,6 +19,8 @@ require_once('partials/_nav.php');
     <section class="dark">
         <div class="row space1">
             <h1>Parallax Automotive Website</h1>
+        </div>
+        <div class="row space1">
             <h3>Learn how to create a parallax website using HTML5 and CSS3</h3>
         </div>
         <div class="row space1">

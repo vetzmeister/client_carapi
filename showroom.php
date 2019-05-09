@@ -6,11 +6,26 @@ $keyWords = 'showroom page client car api';
 include ('partials/_head.php');
 include ('partials/_nav.php');
 
-$page_id = 'index';
+$page_id = 'showroom';
 require_once('partials/_nav.php');
 ?>
-    <section>
-        
+    <section class="col-6">
+        <div class="card">
+            <img class="card-img-top" src="img/audi/audi3.jpg" alt="Audi Car">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="img/audi/audi3.jpg" alt="Audi Car">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
     </section>
 
 <?php

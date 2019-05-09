@@ -208,3 +208,12 @@ li_left:active::before {
     border-top: 2.5em solid transparent;
     border-right: 1.563em solid #DDD;
 }
+
+/**
+* *************************************
+* SHOWROOM
+* *************************************
+*/
+.card {
+    width: 95%;
+}

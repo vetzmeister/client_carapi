@@ -108,22 +108,11 @@ section {
 * NAV
 * *************************************
 */
-ol {
-	list-style-type: none;
-}
-
 a {
     color: white;
     font-size: 2rem;
 }
 
-ol a {
-	text-decoration: none;
-}
-
-ol li {
-	display: inline;
-}
 
 /**
 * *************************************

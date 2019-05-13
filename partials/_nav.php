@@ -6,16 +6,16 @@
 
     <div class="collapse navbar-collapse" id="navbarTogglerCarapi">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ul-left">
-            <li class="nav-item active li_left">
-                <a class="nav-link" href="index.php?home">Home <span class="sr-only">(current)</span></a>
+            <li class="nav-item li_left <?php if ($page_id == 'home') {echo 'active';} ?>">
+                <a class="nav-link" href="index.php?home">Home</a>
             </li>
-            <li class="nav-item li_left">
+            <li class="nav-item li_left <?php if ($page_id == 'showroom') {echo 'active';} ?>">
                 <a class="nav-link" href="index.php?showroom">Cars</a>
             </li>
-            <li class="nav-item li_left">
+            <li class="nav-item li_left <?php if ($page_id == 'showroom') {echo 'hidden';} ?>">
                 <a class="nav-link" href="#about">About</a>
             </li>
-            <li class="nav-item li_left">
+            <li class="nav-item li_left <?php if ($page_id == 'showroom') {echo 'hidden';} ?>">
                 <a class="nav-link" href="#contact">Contact</a>
             </li>
         </ul>

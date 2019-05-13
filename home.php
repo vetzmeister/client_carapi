@@ -3,8 +3,8 @@ $page_title = 'Client car API';
 $pgDesc = 'Frontpage for the client side of our Car API';
 $keyWords = 'frontpage client car api'; 
 
-$page_id = 'index';
-// require_once('partials/home_nav.php');
+$page_id = 'home';
+
 ?>
 <div>
 </div>

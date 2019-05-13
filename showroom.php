@@ -4,14 +4,43 @@ $pgDesc = 'Showroom page for the client side of our Car API';
 $keyWords = 'showroom page client car api';
 
 $page_id = 'showroom';
-require_once('partials/_nav.php');
+include("service.php");
+
+$brands = getBrands();
+
+foreach ($carsbymodel as $value) {
+    echo "id: ".$value['id']."<br>";
+    echo "price: ".$value['price']."<br>";
+    echo "img_url: ".$value['img_url']."<br>";
+    echo "description_text: ".$value['description_text']."<br>";
+    echo "color_id: ".$value['color_id']."<br>";
+    echo "model_id: ".$value['model_id']."<br>";
+    echo "series: ".$value['series']."<br><br>";
+}
+
+foreach ($brands as $value) {
+    echo "id: ".$value['id']."<br>";
+    echo "name: ".$value['name']."<br>";
+}
 
 ?>
 
 <section>
     <div class="container-fluid">
         <div class="row">
-            <div class="bg-img2 col-12">
+            <div class="bg-img2 col-12"
+                <?php
+                $carsbymodel = getCarsByModel(2);
+                foreach ($carsbymodel as $value) {
+                    echo "id: ".$value['id']."<br>";
+                    $id = $value['id'];
+                    $url = $value['img_url'];
+                    echo "<img src=\"$url\" alt=\"$id\"> ";
+                }
+
+                ?>
+                >
+                <img src="img/audi/audi1.jpg">
                 <form action="/action_page.php" class="container">
                     <h4>Audi RS6 Avant</h4>
 

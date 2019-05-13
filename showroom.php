@@ -3,14 +3,11 @@ $page_title = 'Client car API showroom';
 $pgDesc = 'Showroom page for the client side of our Car API';
 $keyWords = 'showroom page client car api';
 
-include ('partials/_head.php');
-include ('partials/_nav.php');
-
 $page_id = 'showroom';
 require_once('partials/_nav.php');
 ?>
-    <section class="col-6">
-        <div class="card">
+    <section class="row">
+        <div class="col-6">
             <img class="card-img-top" src="img/audi/audi3.jpg" alt="Audi Car">
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -18,7 +15,7 @@ require_once('partials/_nav.php');
                 <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
         </div>
-        <div class="card">
+        <div class="col-6">
             <img class="card-img-top" src="img/audi/audi3.jpg" alt="Audi Car">
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -27,7 +24,3 @@ require_once('partials/_nav.php');
             </div>
         </div>
     </section>
-
-<?php
-    include ('partials/_footer.php');
-?>

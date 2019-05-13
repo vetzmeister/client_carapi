@@ -76,6 +76,3 @@ $page_id = 'index';
 
 <div class="parallax4">
 </div>
-<?php
-        include ('partials/_footer.php');
-    ?>

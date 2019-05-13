@@ -7,10 +7,10 @@
     <div class="collapse navbar-collapse" id="navbarTogglerCarapi">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ul-left">
             <li class="nav-item active li_left">
-                <a class="nav-link" href="index.php?landing">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.php?home">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item li_left">
-                <a class="nav-link" href="index.php?insert">Cars</a>
+                <a class="nav-link" href="index.php?showroom">Cars</a>
             </li>
             <li class="nav-item li_left">
                 <a class="nav-link" href="#about">About</a>

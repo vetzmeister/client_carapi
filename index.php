@@ -15,7 +15,7 @@ include ('partials/_head.php');
         }
         elseif (isset($_GET['showroom'])){
         include ('showroom.php');
-            // echo "insert";
+
         }
         elseif (isset($_GET['home'])){
         include ('home.php'); 

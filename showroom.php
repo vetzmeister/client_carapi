@@ -4,7 +4,7 @@ $pgDesc = 'Showroom page for the client side of our Car API';
 $keyWords = 'showroom page client car api';
 
 $page_id = 'showroom';
-require_once('partials/_nav.php');
+
 ?>
     <section class="row">
         <div class="col-6">

@@ -67,7 +67,6 @@ section {
 
 .parallax1, .parallax2, .parallax3, .parallax4 {
     position: relative;
-    opacity: .75;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

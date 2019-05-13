@@ -5,6 +5,7 @@ include ('partials/main_nav.php');
 ?>
 
 
+
 <body>
     <?php
        
@@ -13,8 +14,8 @@ include ('partials/main_nav.php');
             echo "whatever";
         }
         elseif (isset($_GET['insert'])){
-        // include ('showroom.php');
-            echo "insert";
+        include ('showroom.php');
+            // echo "insert";
         }
         elseif (isset($_GET['landing'])){
         include ('home.php'); 

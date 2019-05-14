@@ -8,47 +8,47 @@ include("service.php");
 
 $brands = getBrands();
 
-foreach ($carsbymodel as $value) {
-    echo "id: ".$value['id']."<br>";
-    echo "price: ".$value['price']."<br>";
-    echo "img_url: ".$value['img_url']."<br>";
-    echo "description_text: ".$value['description_text']."<br>";
-    echo "color_id: ".$value['color_id']."<br>";
-    echo "model_id: ".$value['model_id']."<br>";
-    echo "series: ".$value['series']."<br><br>";
-}
+// foreach ($carsbymodel as $value) {
+//     echo "id: ".$value['id']."<br>";
+//     echo "price: ".$value['price']."<br>";
+//     echo "img_url: ".$value['img_url']."<br>";
+//     echo "description_text: ".$value['description_text']."<br>";
+//     echo "color_id: ".$value['color_id']."<br>";
+//     echo "model_id: ".$value['model_id']."<br>";
+//     echo "series: ".$value['series']."<br><br>";
+// }
 
-foreach ($brands as $value) {
-    echo "id: ".$value['id']."<br>";
-    echo "name: ".$value['name']."<br>";
-}
+// foreach ($brands as $value) {
+//     echo "id: ".$value['id']."<br>";
+//     echo "name: ".$value['name']."<br>";
+// }
 
 
 $cars = getCarsByModel(2);
 
-foreach ($cars as $value) {
-    echo "id: ".$value['id']."<br>";
-    echo "price: ".$value['price']."<br>";
-    echo "img_url: ".$value['img_url']."<br>";
-    echo "description_text: ".$value['description_text']."<br>";
-    echo "color_id: ".$value['color_id']."<br>";
-    echo "model_id: ".$value['model_id']."<br>";
-    echo "series: ".$value['series']."<br><br>";
-}
+// foreach ($cars as $value) {
+//     echo "id: ".$value['id']."<br>";
+//     echo "price: ".$value['price']."<br>";
+//     echo "img_url: ".$value['img_url']."<br>";
+//     echo "description_text: ".$value['description_text']."<br>";
+//     echo "color_id: ".$value['color_id']."<br>";
+//     echo "model_id: ".$value['model_id']."<br>";
+//     echo "series: ".$value['series']."<br><br>";
+// }
 ?>
 
-<section>
+<!-- <section>
     <div class="container-fluid">
         <div class="row">
             <div class="bg-img2 col-12"
                 <?php
-                $carsbymodel = getCarsByModel(2);
-                foreach ($carsbymodel as $value) {
-                    echo "id: ".$value['id']."<br>";
-                    $id = $value['id'];
-                    $url = $value['img_url'];
-                    echo "<img src=\"$url\" alt=\"$id\"> ";
-                }
+                // $carsbymodel = getCarsByModel(2);
+                // foreach ($carsbymodel as $value) {
+                //     echo "id: ".$value['id']."<br>";
+                //     $id = $value['id'];
+                //     $url = $value['img_url'];
+                //     echo "<img src=\"$url\" alt=\"$id\"> ";
+                // }
 
                 ?>
                 >
@@ -69,32 +69,37 @@ foreach ($cars as $value) {
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <section>
     <div class="container-fluid">
-        <div class="row">
-            <div class="bg-img1 col-12">
-                <form action="/action_page.php" class="container">
-                    <h4>Audi RS6 Avant</h4>
-
-                    <label for="Specs"><b>Specifications</b></label>
-                    <ul>
-                        <li>HK: 450 </li>
-                        <li>NM: 800</li>
-                        <li>Km/L: 4.5</li>
-                        <li>Km: 3000</li>
-                    </ul>                
-
-                    <button type="button" class="btn">Read More</button>
-                </form>
+        <?php foreach ( $cars as $value) : ?>
+            <div class="row">
+                <div class="bg-img1 col-12">
+                    <?php 
+                    // $id = $value['id'];
+                    // $url = $value['img_url'];
+                    // echo "<img src=\"$url\" alt=\"$id\"> ";?>
+                    <form action="/action_page.php" class="container">
+                        <h4>Audi RS6 Avant</h4>
+                        <label for="Specs"><b>Specifications</b></label>
+                        <ul>
+                            <li><?php  echo "ID: ".$value['id']."<br>"; ?></li>
+                            <li><?php echo "Price: ".$value['price']."<br>"; ?></li>
+                            <li><?php echo "Series: ".$value['series']."<br><br>"; ?></li>
+                            <li><?php echo "Description: ".$value['description_text']."<br>"; ?></li>
+                        </ul>                
+                        <button type="button" class="btn">Read More</button>
+                    </form>
+                </div>
             </div>
-        </div>
+            <br />
+            <?php endforeach; ?>
     </div>
 </section>
 
 <!-- IMAGE TEST -->
-<section>
+<!-- <section>
     <div class="container-fluid">
         <div class="row">
             <div class="bg-img2 col-12">
@@ -142,4 +147,4 @@ foreach ($cars as $value) {
                 <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
         </div>
-</section>
+</section> -->

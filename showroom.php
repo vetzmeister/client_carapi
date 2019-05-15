@@ -77,14 +77,14 @@ $cars = getCarsByModel(2);
             <div class="row">
                 <div class="bg-img1 col-12">
                     <?php 
-                    // $id = $value['id'];
-                    // $url = $value['img_url'];
-                    // echo "<img src=\"$url\" alt=\"$id\"> ";?>
+                    $id = $value['id'];
+                    $url = $value['img_url'];
+                    // echo "<img class=\"bg-img1\" src=\"$url\" alt=\"$id\"> ";?>
                     <form action="/action_page.php" class="container">
                         <h4>Audi RS6 Avant</h4>
                         <label for="Specs"><b>Specifications</b></label>
                         <ul>
-                            <li><?php  echo "ID: ".$value['id']."<br>"; ?></li>
+                            <li><?php echo "ID: ".$value['id']."<br>"; ?></li>
                             <li><?php echo "Price: ".$value['price']."<br>"; ?></li>
                             <li><?php echo "Series: ".$value['series']."<br><br>"; ?></li>
                             <li><?php echo "Description: ".$value['description_text']."<br>"; ?></li>

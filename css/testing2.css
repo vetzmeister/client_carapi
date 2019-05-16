@@ -216,9 +216,7 @@ li_left:active::before {
 * IMAGE TEST
 * *************************************
 */
-.bg-img1 {
-    /* The image used */
-    /* background-image: url("../img/audi/audi1.jpg"); */
+.bg-cars {
     /* Control the height of the image */
     min-height: 425px!important;
     
@@ -229,20 +227,6 @@ li_left:active::before {
     position: relative;
     }
 
-.bg-img2 {
-    /* The image used */
-    background-image: url("../img/mercedes/mercedes1.jpg");
- 
-    /* Control the height of the image */
-    min-height: 425px!important;
-    
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    
-}
   
   /* Add styles to the form container */
   .container {

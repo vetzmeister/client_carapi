@@ -22,30 +22,27 @@ foreach ($brands as $value) {
     echo "id: ".$value['id']."<br>";
     echo "name: ".$value['name']."<br>";
 }
+// <?php
+// $carsbymodel = getCarsByModel(2);
+// foreach ($carsbymodel as $value) {
+//     echo "id: ".$value['id']."<br>";
+//     $id = $value['id'];
+//     $url = $value['img_url'];
+//     echo "<img src=\"$url\" alt=\"$id\"> ";
+// }
 
+// 
 ?>
 
 <section>
     <div class="container-fluid">
         <div class="row">
-            <div class="bg-img2 col-12"
-                <?php
-                $carsbymodel = getCarsByModel(2);
-                foreach ($carsbymodel as $value) {
-                    echo "id: ".$value['id']."<br>";
-                    $id = $value['id'];
-                    $url = $value['img_url'];
-                    echo "<img src=\"$url\" alt=\"$id\"> ";
-                }
-
-                ?>
-                >
-                <img src="img/audi/audi1.jpg">
+            <div class="bg-img2 col-12">
                 <form action="/action_page.php" class="container">
                     <h4>Audi RS6 Avant</h4>
 
                     <label for="Specs"><b>Specifications</b></label>
-                    <ul>
+                    <ul class="spec">
                         <li>HK: 450 </li>
                         <li>NM: 800</li>
                         <li>Km/L: 4.5</li>
@@ -63,11 +60,12 @@ foreach ($brands as $value) {
     <div class="container-fluid">
         <div class="row">
             <div class="bg-img1 col-12">
+                <img src="img/audi/audi1.jpg" class="img-fluid" alt="Responsive image">
                 <form action="/action_page.php" class="container">
                     <h4>Audi RS6 Avant</h4>
 
                     <label for="Specs"><b>Specifications</b></label>
-                    <ul>
+                    <ul clasS="spec">
                         <li>HK: 450 </li>
                         <li>NM: 800</li>
                         <li>Km/L: 4.5</li>
@@ -90,7 +88,7 @@ foreach ($brands as $value) {
                     <h4>Audi RS6 Avant</h4>
 
                     <label for="Specs"><b>Specifications</b></label>
-                    <ul>
+                    <ul class="spec">
                         <li>HK: 450 </li>
                         <li>NM: 800</li>
                         <li>Km/L: 4.5</li>

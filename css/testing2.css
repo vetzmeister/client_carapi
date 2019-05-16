@@ -216,12 +216,16 @@ li_left:active::before {
 * IMAGE TEST
 * *************************************
 */
+<<<<<<< HEAD
 .spec {
     list-style-type: none!important;
 }
 .bg-img1 {
     /* The image used 
     background-image: url("../img/audi/audi1.jpg");*/
+=======
+.bg-cars {
+>>>>>>> 2126b4ad2c4846f09d4f00b14f29a766e97aa3b2
     /* Control the height of the image */
     min-height: 425px!important;
     
@@ -233,6 +237,7 @@ li_left:active::before {
     border: solid rgb(164, 167, 168) 8px!important;
     }
 
+<<<<<<< HEAD
 .bg-img2 {
     /* The image used */
     background-image: url("../img/mercedes/mercedes1.jpg");
@@ -248,6 +253,8 @@ li_left:active::before {
     border: solid rgb(164, 167, 168) 8px!important;
     
 }
+=======
+>>>>>>> 2126b4ad2c4846f09d4f00b14f29a766e97aa3b2
   
 img {
     background-position: center;

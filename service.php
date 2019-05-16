@@ -66,6 +66,37 @@ function filterCarsByColors($cars, $color_id) {
 }
 
 
+// get brand name by id.
+function getBrandName($id) {
+    $url = 'http://wenzhemin.dk/carstore-api/brands/'.$id;
+    $obj = json_decode(file_get_contents($url), true);
+    $data = $obj['data'];
+
+    $name = $data["name"];
+    return $name;
+}
+
+// get model name by id.
+function getModelName($id) {
+    $url = 'http://wenzhemin.dk/carstore-api/models/'.$id;
+    $obj = json_decode(file_get_contents($url), true);
+    $data = $obj['data'];
+
+    $name = $data["name"];
+    return $name;
+}
+
+// get model name by id.
+function getColorName($id) {
+    $url = 'http://wenzhemin.dk/carstore-api/colors/'.$id;
+    $obj = json_decode(file_get_contents($url), true);
+    $data = $obj['data'];
+
+    $name = $data["name"];
+    return $name;
+}
+
+
 
 
 

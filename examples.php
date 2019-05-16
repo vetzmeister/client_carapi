@@ -55,4 +55,16 @@ echo getColorName($color_id);
 echo "<br><br>";
 
 
+// example for get all cars
+$cars = getCars();
+
+foreach ($cars as $value) {
+    echo "id: ".$value['id']."<br>";
+    echo "price: ".$value['price']."<br>";
+    echo "img_url: ".$value['img_url']."<br>";
+    echo "description_text: ".$value['description_text']."<br>";
+    echo "color_id: ".$value['color_id']."<br>";
+    echo "model_id: ".$value['model_id']."<br>";
+    echo "series: ".$value['series']."<br><br>";
+}
 

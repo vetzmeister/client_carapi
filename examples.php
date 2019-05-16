@@ -34,3 +34,25 @@ $newCar = new car("0", "666", "test OOP url", "test OOP description", "2", "2", 
 $result = $newCar->insertCarToApi();
 echo $result;
 echo "<br><br>";
+
+
+// the way we take name of one brand by its id
+// assume need the name for the brand the id of that is 1.
+$brand_id = 1;
+echo getBrandName($brand_id);
+echo "<br><br>";
+
+// the way we take name of one model by its id
+// assume need the name for the model the id of that is 2.
+$model_id = 2;
+echo getModelName($model_id);
+echo "<br><br>";
+
+// the way we take name of one color by its id
+// assume need the name for the color the id of that is 3.
+$color_id = 1;
+echo getColorName($color_id);
+echo "<br><br>";
+
+
+

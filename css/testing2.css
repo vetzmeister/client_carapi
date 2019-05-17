@@ -231,9 +231,7 @@ li_left:active::before {
 * IMAGE TEST
 * *************************************
 */
-.bg-img1 {
-    /* The image used */
-    background-image: url("../img/audi/audi1.jpg");
+.bg-cars {
     /* Control the height of the image */
     min-height: 425px !important;
 
@@ -242,7 +240,9 @@ li_left:active::before {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    border: solid rgb(164, 167, 168) 8px !important;
 }
+
 
 .bg-img2 {
     /* The image used */
@@ -256,33 +256,29 @@ li_left:active::before {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    border: solid rgb(164, 167, 168) 8px !important;
 
+}
+
+
+img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: solid rgb(164, 167, 168) 8px !important;
 }
 
 /* Add styles to the form container */
 .container {
+
     position: absolute;
     right: 0;
     margin: 20px;
     max-width: 300px;
     padding: 16px;
-    background-color: white;
-}
-
-/* Full-width input fields */
-input[type=text],
-input[type=password] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    border: none;
-    background: #f1f1f1;
-}
-
-input[type=text]:focus,
-input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
+    background-color: rgb(164, 167, 168);
+    color: white;
 }
 
 /* Set a style for the submit button */

@@ -35,9 +35,8 @@ function getModelsByBrand($brand_id) {
 
 // get all cars.
 function getCars() {
-    $url = 'http://wenzhemin.dk/carstore-api/cars';
-    $obj = json_decode(file_get_contents($url), true);
-    $data = $obj['data'];
+    $url = 'http://wenzhemin.dk/carstore-api/carsview';
+    $data = json_decode(file_get_contents($url), true);
 
     $filtered_data = [];
     for($i = 0; $i < count($data); $i++){
@@ -47,8 +46,8 @@ function getCars() {
             "price" => $item["price"],
             "img_url" => $item["img_url"],
             "description_text" => $item["description_text"],
-            "color_id" => $item["color_id"],
-            "model_id" => $item["model_id"],
+            "color_name" => $item["color_name"],
+            "model_name" => $item["model_name"],
             "series" => $item["series"]
         );
     }
@@ -56,9 +55,8 @@ function getCars() {
 }
 
 function getCarsByModel($model_id) {
-    $url = 'http://wenzhemin.dk/carstore-api/carsbymodel/'.$model_id;
-    $obj = json_decode(file_get_contents($url), true);
-    $data = $obj['data'];
+    $url = 'http://wenzhemin.dk/carstore-api/carsbymodelview/'.$model_id;
+    $data = json_decode(file_get_contents($url), true);
 
     $filtered_data = [];
     for($i = 0; $i < count($data); $i++){
@@ -68,58 +66,25 @@ function getCarsByModel($model_id) {
             "price" => $item["price"],
             "img_url" => $item["img_url"],
             "description_text" => $item["description_text"],
-            "color_id" => $item["color_id"],
-            "model_id" => $item["model_id"],
+            "color_name" => $item["color_name"],
+            "model_name" => $item["model_name"],
             "series" => $item["series"]
         );
     }
     return $filtered_data;
 }
 
-function filterCarsByColors($cars, $color_id) {
+
+function filterCarsByColors($cars, $color_name) {
     $filtered_data = [];
     for($i = 0; $i < count($cars); $i++){
         $item = $cars[$i];
-        if ($item["color_id"] == $color_id) {
+        if ($item["color_name"] == $color_name) {
             array_push($filtered_data, $item);
         }
     }
     return $filtered_data;
 }
-
-
-// get brand name by id.
-function getBrandName($id) {
-    $url = 'http://wenzhemin.dk/carstore-api/brands/'.$id;
-    $obj = json_decode(file_get_contents($url), true);
-    $data = $obj['data'];
-
-    $name = $data["name"];
-    return $name;
-}
-
-// get model name by id.
-function getModelName($id) {
-    $url = 'http://wenzhemin.dk/carstore-api/models/'.$id;
-    $obj = json_decode(file_get_contents($url), true);
-    $data = $obj['data'];
-
-    $name = $data["name"];
-    return $name;
-}
-
-// get model name by id.
-function getColorName($id) {
-    $url = 'http://wenzhemin.dk/carstore-api/colors/'.$id;
-    $obj = json_decode(file_get_contents($url), true);
-    $data = $obj['data'];
-
-    $name = $data["name"];
-    return $name;
-}
-
-
-
 
 
 

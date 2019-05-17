@@ -3,68 +3,67 @@
 include("service.php");
 include("car.php");
 
-print_r(getBrands());
-echo "<br><br>";
-print_r(getModelsByBrand(2));
-echo "<br><br>";
-print_r(getCarsByModel(2));
+// the way we get all brands.
+$brands = getBrands();
+
+// print all brands.
+print_r($brands);
 echo "<br><br>";
 
-$cars = getCarsByModel(2);
+// get models by brand id.
+$models = getModelsByBrand(2);
+print_r($models);
+echo "<br><br>";
 
-foreach ($cars as $value) {
+// get cars by model id.
+$carsByModel2 = getCarsByModel(2);
+print_r($carsByModel2);
+echo "<br><br>";
+
+// the way we print each item of array.
+foreach ($carsByModel2 as $value) {
     echo "id: ".$value['id']."<br>";
     echo "price: ".$value['price']."<br>";
     echo "img_url: ".$value['img_url']."<br>";
     echo "description_text: ".$value['description_text']."<br>";
-    echo "color_id: ".$value['color_id']."<br>";
-    echo "model_id: ".$value['model_id']."<br>";
+    echo "color_name: ".$value['color_name']."<br>";
+    echo "model_name: ".$value['model_name']."<br>";
     echo "series: ".$value['series']."<br><br>";
 }
 
-$carsWithModel2 = getCarsByModel(2);
-print_r($carsWithModel2);
+
+// get all cars.
+$allCars = getCars();
+
+// get black cars
+$color = "Black";
+$blackCars = filterCarsByColors($allCars, $color);
+print_r($blackCars);
 echo "<br><br>";
 
-$carsWithColor2 = filterCarsByColors($carsWithModel2, 1);
-print_r($carsWithColor2);
-echo "<br><br>";
-
+// insert new car.
 $newCar = new car("0", "666", "test OOP url", "test OOP description", "2", "2", "");
-$result = $newCar->insertCarToApi();
-echo $result;
-echo "<br><br>";
-
-
-// the way we take name of one brand by its id
-// assume need the name for the brand the id of that is 1.
-$brand_id = 1;
-echo getBrandName($brand_id);
-echo "<br><br>";
-
-// the way we take name of one model by its id
-// assume need the name for the model the id of that is 2.
-$model_id = 2;
-echo getModelName($model_id);
-echo "<br><br>";
-
-// the way we take name of one color by its id
-// assume need the name for the color the id of that is 3.
-$color_id = 1;
-echo getColorName($color_id);
+// // uncomment it to insert new car.
+// $result = $newCar->insertCarToApi();
+// echo $result;
 echo "<br><br>";
 
 
 // example for get all cars
 $cars = getCars();
 
+// print all cars
+print_r($cars);
+echo "<br><br>";
+
+// print each field of cars.
 foreach ($cars as $value) {
     echo "id: ".$value['id']."<br>";
     echo "price: ".$value['price']."<br>";
     echo "img_url: ".$value['img_url']."<br>";
     echo "description_text: ".$value['description_text']."<br>";
-    echo "color_id: ".$value['color_id']."<br>";
-    echo "model_id: ".$value['model_id']."<br>";
+    echo "color_name: ".$value['color_name']."<br>";
+    echo "model_name: ".$value['model_name']."<br>";
     echo "series: ".$value['series']."<br><br>";
 }
 

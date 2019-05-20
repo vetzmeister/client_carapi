@@ -67,3 +67,9 @@ foreach ($cars as $value) {
     echo "series: ".$value['series']."<br><br>";
 }
 
+// the way we take the brand name with car id.
+$brandName = getBrandNameByCarId(4);
+echo $brandName;
+echo "<br><br>";
+
+

@@ -1,6 +1,5 @@
 <?php
 include ('partials/_head.php');
-
 ?>
 
 
@@ -14,9 +13,8 @@ include ('partials/_head.php');
 
         }
         elseif (isset($_GET['home'])){
-        include ('home.php'); 
-        }
-
+            include ('home.php'); 
+        } 
         include ('partials/_footer.php');
     ?>
 </body>

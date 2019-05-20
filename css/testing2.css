@@ -7,12 +7,13 @@ html {
     scroll-behavior: smooth;
 }
 
-body, html {
+body,
+html {
     height: 100% !important;
-    margin: 0!important;
+    margin: 0 !important;
     line-height: 180% !important;
-    color: #666!important;
-    text-align: center!important;
+    color: #666 !important;
+    text-align: center !important;
 }
 
 .two-col {
@@ -33,11 +34,12 @@ section {
     color: #f2f2f2;
 }
 
-.space1  {
- justify-content: center !important;    
+.space1 {
+    justify-content: center !important;
 }
+
 .space2 {
-    justify-content: center !important;    
+    justify-content: center !important;
 }
 
 /**
@@ -65,7 +67,10 @@ section {
     min-height: 100%;
 }
 
-.parallax1, .parallax2, .parallax3, .parallax4 {
+.parallax1,
+.parallax2,
+.parallax3,
+.parallax4 {
     position: relative;
     background-position: center;
     background-size: cover;
@@ -113,7 +118,17 @@ a {
     font-size: 2rem;
 }
 
-.ul_left  {
+.logout {
+
+    padding: 2px 4px;
+}
+
+/**
+* *************************************
+* NAV 2 EXAMPLE
+* *************************************
+*/
+.ul_left {
     height: 2.500em;
     width: 100%;
     padding: 0;
@@ -139,6 +154,7 @@ li_left {
     text-align: center;
     line-height: 2.5em;
 }
+
 li_left::before {
     content: '';
     position: absolute;
@@ -152,6 +168,7 @@ li_left::before {
     border-top: 2.5em solid transparent;
     border-right: 1.563em solid #EEE;
 }
+
 li_left::after {
     content: '';
     position: absolute;
@@ -173,10 +190,12 @@ li_left:hover {
     color: #666;
     background: #CCC;
 }
+
 li_left:hover::after {
     border-top: 2.5em solid #CCC;
     border-right: 1.563em solid transparent;
 }
+
 li_left:hover::before {
     border-top: 2.5em solid transparent;
     border-right: 1.563em solid #CCC;
@@ -188,10 +207,12 @@ li_left:active {
     color: #BBB;
     background: #DDD;
 }
+
 li_left:active::after {
     border-top: 2.5em solid #DDD;
     border-right: 1.563em solid transparent;
 }
+
 li_left:active::before {
     border-top: 2.5em solid transparent;
     border-right: 1.563em solid #DDD;
@@ -218,8 +239,8 @@ li_left:active::before {
 */
 .bg-cars {
     /* Control the height of the image */
-    min-height: 425px!important;
-    
+    min-height: 425px !important;
+
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
@@ -234,10 +255,12 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    border: solid rgb(164, 167, 168) 8px!important;
+    border: solid rgb(164, 167, 168) 8px !important;
 }
-  /* Add styles to the form container */
-  .container {
+
+/* Add styles to the form container */
+.container {
+
     position: absolute;
     right: 0;
     margin: 20px;
@@ -245,10 +268,10 @@ img {
     padding: 16px;
     background-color: rgb(164, 167, 168);
     color: white;
-  }
-  
-  /* Set a style for the submit button */
-  .btn {
+}
+
+/* Set a style for the submit button */
+.btn {
     background-color: #4CAF50;
     color: white;
     padding: 16px 20px;
@@ -256,8 +279,20 @@ img {
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
-  }
-  
-  .btn:hover {
+}
+
+.btn:hover {
     opacity: 1;
-  }
+}
+
+
+/* login.php */
+.wrapper {
+    width: 350px;
+    padding: 20px;
+}
+
+/* footer */
+.fa {
+    color: white;
+}

@@ -5,7 +5,7 @@
                 </div>
                 <div class="two-col col-md-6">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et nesciunt impedit veniam tempore repellat quidem, eligendi animi. Adipisci, error sunt!</p>
-                    <p>Copyright &copy;2019 Group: #TheRoyaleApples. All Rights Reserved.</p>
+                    <p>Copyright &copy;2019-<?php echo date("Y") ?> Group: #TheRoyaleApples. All Rights Reserved.</p>
                 </div>
             </div>
         </footer>

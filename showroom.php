@@ -49,13 +49,11 @@ $cars = getCarsByModel(2);
                     <form action="/action_page.php" class="container">
                         <h4>Audi RS6 Avant</h4>
                         <label for="Specs"><b>Specifications</b></label>
-                        <ul>
-                            <li><?php echo "ID: ".$value['id']."<br>"; ?></li>
-                            <li><?php echo "Price: ".$value['price']."<br>"; ?></li>
-                            <li><?php echo "Series: ".$value['series']."<br><br>"; ?></li>
-                            <li><?php echo "Description: ".$value['description_text']."<br>"; ?></li>
-                        </ul>                
-                        <button type="button" class="btn">Read More</button>
+                            <p><?php echo "ID: ".$value['id']; ?></p>
+                            <P><?php echo "Price: ".$value['price'].",-"; ?></p>
+                            <p><?php echo "Model: ".$value['series']; ?></p>
+                            <p><?php echo "Description: ".$value['description_text']; ?></p>
+                        <button type="button" class="btn rm_btn">Read More</button>
                     </form>
                 </div>
             </div>

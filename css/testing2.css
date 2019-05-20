@@ -113,12 +113,6 @@ a {
     font-size: 2rem;
 }
 
-
-/**
-* *************************************
-* NAV 2 EXAMPLE
-* *************************************
-*/
 .ul_left  {
     height: 2.500em;
     width: 100%;
@@ -208,24 +202,21 @@ li_left:active::before {
 * SHOWROOM
 * *************************************
 */
-/* .card {
-    width: 95%;
-} */
+/* Read more button */
+.rm_btn {
+    box-shadow: 2px 2px 10px black;
+}
+
+.rm_btn:hover {
+    box-shadow: 2px 2px 20px black;
+}
+
 /**
 * *************************************
 * IMAGE TEST
 * *************************************
 */
-<<<<<<< HEAD
-.spec {
-    list-style-type: none!important;
-}
-.bg-img1 {
-    /* The image used 
-    background-image: url("../img/audi/audi1.jpg");*/
-=======
 .bg-cars {
->>>>>>> 2126b4ad2c4846f09d4f00b14f29a766e97aa3b2
     /* Control the height of the image */
     min-height: 425px!important;
     
@@ -234,27 +225,9 @@ li_left:active::before {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    border: solid rgb(164, 167, 168) 8px!important;
+    border: solid rgb(164, 167, 168) 3px!important;
     }
 
-<<<<<<< HEAD
-.bg-img2 {
-    /* The image used */
-    background-image: url("../img/mercedes/mercedes1.jpg");
- 
-    /* Control the height of the image */
-    min-height: 425px!important;
-    
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    border: solid rgb(164, 167, 168) 8px!important;
-    
-}
-=======
->>>>>>> 2126b4ad2c4846f09d4f00b14f29a766e97aa3b2
   
 img {
     background-position: center;

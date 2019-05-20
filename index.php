@@ -9,11 +9,7 @@ include ('partials/_head.php');
     <?php
        include ('partials/_nav.php');
 
-        if (isset($_GET['whatever'])){
-            // include ('whatever.php');
-            echo "whatever";
-        }
-        elseif (isset($_GET['showroom'])){
+        if (isset($_GET['showroom'])){
         include ('showroom.php');
 
         }

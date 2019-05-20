@@ -75,6 +75,26 @@ function getCarsByModel($model_id) {
 }
 
 
+// get brand name by car id.
+function getBrandNameByCarId($id) {
+    $urlCar = 'http://wenzhemin.dk/carstore-api/cars/'.$id;
+    $objCar = json_decode(file_get_contents($urlCar), true);
+    $dataCar = $objCar['data'];
+    $modelId = $dataCar["model_id"];
+
+    $urlModel = 'http://wenzhemin.dk/carstore-api/models/'.$modelId;
+    $objModel = json_decode(file_get_contents($urlModel), true);
+    $dataModel = $objModel['data'];
+    $brandId = $dataModel["brand_id"];
+
+    $urlBrand = 'http://wenzhemin.dk/carstore-api/brands/'.$brandId;
+    $objBrand = json_decode(file_get_contents($urlBrand), true);
+    $dataBrand = $objBrand['data'];
+    $brandName = $dataBrand["name"];
+    return $brandName;
+}
+
+
 function filterCarsByColors($cars, $color_name) {
     $filtered_data = [];
     for($i = 0; $i < count($cars); $i++){

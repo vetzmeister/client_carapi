@@ -21,7 +21,11 @@ $cars = getCars();
                 ?>
                 <div class="bg-cars col-12" style="background-image: url(<?php echo $url; ?>)">
                     <form action="/action_page.php" class="container">
-                        <h4><?php echo $value['name']. $value['model_name']; ?></h4>
+                        <?php $CarBrandId = $value['id'];
+                        $brandName = getBrandNameByCarId($CarBrandId);
+                        ?>
+
+                        <h4><?php echo $brandName. " " .$value['model_name']; ?></h4>
                         <label for="Specs"><b>Specifications</b></label>
                             <P><?php echo "Price: ".$value['price'].",-"; ?></p>
                             <p><?php echo "Model: ".$value['model_name']; ?></p>

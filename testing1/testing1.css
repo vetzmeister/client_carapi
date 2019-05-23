@@ -1,7 +1,10 @@
 /*NAVBAR STYLE*/
 
-* { box-sizing: border-box; }
-.ul_left  {
+* {
+    box-sizing: border-box;
+}
+
+.ul_left {
     height: 2.500em;
     width: 100%;
     padding: 0;
@@ -27,6 +30,7 @@ li {
     text-align: center;
     line-height: 2.5em;
 }
+
 li::before {
     content: '';
     position: absolute;
@@ -40,6 +44,7 @@ li::before {
     border-top: 2.5em solid transparent;
     border-right: 1.563em solid #EEE;
 }
+
 li::after {
     content: '';
     position: absolute;
@@ -55,16 +60,26 @@ li::after {
     border-right: 1.563em solid transparent;
 }
 
+
+
+
+.logout {
+    color: #555;
+    background-color: rgb(179, 174, 177);
+}
+
 /* Hover */
 
 li:hover {
     color: #666;
     background: #CCC;
 }
+
 li:hover::after {
     border-top: 2.5em solid #CCC;
     border-right: 1.563em solid transparent;
 }
+
 li:hover::before {
     border-top: 2.5em solid transparent;
     border-right: 1.563em solid #CCC;
@@ -76,10 +91,12 @@ li:active {
     color: #BBB;
     background: #DDD;
 }
+
 li:active::after {
     border-top: 2.5em solid #DDD;
     border-right: 1.563em solid transparent;
 }
+
 li:active::before {
     border-top: 2.5em solid transparent;
     border-right: 1.563em solid #DDD;
@@ -88,7 +105,9 @@ li:active::before {
 
 /*TRANSITION STYLING*/
 
-*, :before, :after {
+*,
+:before,
+:after {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -110,6 +129,7 @@ li:active::before {
     margin: auto auto;
     overflow: hidden;
 }
+
 .page__style_ferrari {
     background: #6D326D;
     font-family: OpenSans-Regular, sans-serif;
@@ -123,6 +143,7 @@ li:active::before {
     margin: auto auto;
     overflow: hidden;
 }
+
 .page__style_audi {
     background: #6D326D;
     font-family: OpenSans-Regular, sans-serif;
@@ -136,6 +157,7 @@ li:active::before {
     margin: auto auto;
     overflow: hidden;
 }
+
 .page__style_mercedes {
     background: #6D326D;
     font-family: OpenSans-Regular, sans-serif;
@@ -149,6 +171,7 @@ li:active::before {
     margin: auto auto;
     overflow: hidden;
 }
+
 .page__style_about {
     background: #6D326D;
     font-family: OpenSans-Regular, sans-serif;
@@ -167,11 +190,13 @@ li:active::before {
     font-weight: 300;
     text-align: center;
 }
+
 .page__description1 {
     color: #ffffff;
     font-weight: 300;
     text-align: center;
 }
+
 .page__description2 {
     color: #ffffff;
     font-weight: 300;
@@ -203,11 +228,28 @@ a:hover {
 }
 
 @keyframes animate {
-    10%  {transform: scale(1, 0.002);}
-    35%  {transform: scale(0.2, 0.002); opacity: 1;}
-    50%  {transform: scale(0.2, 0.002); opacity: 0;}
-    85%  {transform: scale(1, 0.002); opacity: 1;}
-    100% {transform: scale(1, 1);}
+    10% {
+        transform: scale(1, 0.002);
+    }
+
+    35% {
+        transform: scale(0.2, 0.002);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(0.2, 0.002);
+        opacity: 0;
+    }
+
+    85% {
+        transform: scale(1, 0.002);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
 }
 
 .fadeIn {
@@ -217,39 +259,44 @@ a:hover {
 /*  home (ROSSO FIORANO)
 -----------------------------------*/
 .ferrari {
-    background: rgb(114,13,19);
+    background: rgb(114, 13, 19);
 }
 
 /*  Projects (BLU SCOZIA)
 -----------------------------------*/
 .home {
-    background: rgb(22,25,41);
+    background: rgb(22, 25, 41);
 }
+
 /*  Skills (GIALLO MODENA)
 -----------------------------------*/
 .skills {
-    background: rgb(179,149,48);
+    background: rgb(179, 149, 48);
 }
+
 /*  About (GRIGIO FERRO)
 -----------------------------------*/
 .about {
-    background: rgb(80,77,74);
+    background: rgb(80, 77, 74);
 }
+
 /*  Contact (ROSSO CORSA)
 -----------------------------------*/
-.audi{
+.audi {
     background: yellow;
 }
+
 /*****************************************************************
 ~ Mobile media-queries (max-width: 767px)
 ******************************************************************/
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 767px) {
     .page__description1 h1 {
         margin-top: 100px;
     }
 }
-@media only screen and (max-width: 767px){
+
+@media only screen and (max-width: 767px) {
     .page__description2 h1 {
         margin-top: 100px;
     }
@@ -281,6 +328,7 @@ a:hover {
     flex-grow: 6;
     opacity: 1;
 }
+
 .ferrarisplit .ferrari:nth-child(1) {
     background: url("ferrari/ferrari1.jpg") no-repeat center;
     background-size: cover;
@@ -310,7 +358,7 @@ a:hover {
     text-align: justify;
 }
 
-.ferrarisplit .ferrari:hover .content{
+.ferrarisplit .ferrari:hover .content {
     transform: translateX(0);
     transition-delay: 1s;
 }
@@ -342,6 +390,7 @@ a:hover {
     flex-grow: 5;
     opacity: 1;
 }
+
 .audisplit .audi:nth-child(1) {
     background: url("audi/audi1.jpg") no-repeat center;
     background-size: cover;
@@ -370,7 +419,7 @@ a:hover {
     text-align: justify;
 }
 
-.audisplit .audi:hover .content{
+.audisplit .audi:hover .content {
     transform: translateX(0);
     transition-delay: 1s;
 }
@@ -401,6 +450,7 @@ a:hover {
     flex-grow: 6;
     opacity: 1;
 }
+
 .mercedesplit .mercedes:nth-child(1) {
     background: url("mercedes/mercedes1.jpg") no-repeat center;
     background-size: cover;
@@ -430,11 +480,7 @@ a:hover {
     text-align: justify;
 }
 
-.mercedesplit .mercedes:hover .content{
+.mercedesplit .mercedes:hover .content {
     transform: translateX(0);
     transition-delay: 1s;
 }
-
-
-
-

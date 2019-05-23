@@ -48,7 +48,7 @@ $newCar = new car("0", "666", "test OOP url", "test OOP description", "2", "2", 
 // echo $result;
 echo "<br><br>";
 
-
+ 
 // example for get all cars
 $cars = getCars();
 
@@ -66,4 +66,10 @@ foreach ($cars as $value) {
     echo "model_name: ".$value['model_name']."<br>";
     echo "series: ".$value['series']."<br><br>";
 }
+
+// the way we take the brand name with car id.
+$brandName = getBrandNameByCarId(4);
+echo $brandName;
+echo "<br><br>";
+
 

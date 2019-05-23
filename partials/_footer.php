@@ -1,19 +1,14 @@
         <footer class="dark">
             <div class="row space1">
-                <div class="two-col col-md-5">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quam numquam autem? Repudiandae
-                        corrupti est quos dolorum, vitae, dolorem animi, necessitatibus aliquid nam asperiores nostrum.
-                        Ipsam ex minus quam velit.</p>
+                <div class="two-col col-md-6">
+                    <p>Copyright &copy;2019-<?php echo date("Y") ?> Group: #TheRoyaleApples. All Rights Reserved.</p>
+                </div>
+                <div class="two-col col-md-1">
+                    <a href="login.php"><i class="fa fa-user fa-1x" aria-hidden="true"></i></a>
                 </div>
                 <div class="two-col col-md-5">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et nesciunt impedit veniam tempore
-                        repellat quidem, eligendi animi. Adipisci, error sunt!</p>
-                    <p>Copyright &copy;2019 Group: #TheRoyaleApples. All Rights Reserved.</p>
+                    <p>A site made to display cars in a showroom style. Build with and API in Laravel and a MySQL database.</p>
                 </div>
-                <div class="two-col col-md-2">
-                    <a href="login.php"><i class="fa fa-user fa-3x" aria-hidden="true"></i></a>
-                </div>
-
             </div>
         </footer>
         <script src="https://code.jquery.com/jquery-3.4.0.min.js"

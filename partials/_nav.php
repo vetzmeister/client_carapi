@@ -62,3 +62,11 @@ session_start();
 
 
 <?php } ?>
+
+
+<style>
+.logout {
+    color: #555;
+    background-color: rgb(179, 174, 177);
+}
+</style>

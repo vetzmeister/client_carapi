@@ -8,33 +8,7 @@ include("service.php");
 
 $brands = getBrands();
 
-// foreach ($carsbymodel as $value) {
-//     echo "id: ".$value['id']."<br>";
-//     echo "price: ".$value['price']."<br>";
-//     echo "img_url: ".$value['img_url']."<br>";
-//     echo "description_text: ".$value['description_text']."<br>";
-//     echo "color_id: ".$value['color_id']."<br>";
-//     echo "model_id: ".$value['model_id']."<br>";
-//     echo "series: ".$value['series']."<br><br>";
-// }
-
-// foreach ($brands as $value) {
-//     echo "id: ".$value['id']."<br>";
-//     echo "name: ".$value['name']."<br>";
-// }
-
-
-$cars = getCarsByModel(2);
-
-// foreach ($cars as $value) {
-//     echo "id: ".$value['id']."<br>";
-//     echo "price: ".$value['price']."<br>";
-//     echo "img_url: ".$value['img_url']."<br>";
-//     echo "description_text: ".$value['description_text']."<br>";
-//     echo "color_id: ".$value['color_id']."<br>";
-//     echo "model_id: ".$value['model_id']."<br>";
-//     echo "series: ".$value['series']."<br><br>";
-// }
+$cars = getCars();
 ?>
 
 <section>

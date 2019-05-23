@@ -58,11 +58,3 @@ include ('partials/_nav.php');
         <input type="submit" name="login" class="btn btn-info form-control mt-3 mb-5 p-0" value="Login" />
     </form>
 </div>
-
-<!-- 
-<style>
-.wrapper {
-    width: 350px;
-    padding: 20px;
-}
-</style> -->

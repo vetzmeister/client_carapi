@@ -8,6 +8,8 @@
 
 class car
 {
+     
+
     private $id;
     private $price;
     private $img_url;

@@ -59,10 +59,10 @@ include ('partials/_nav.php');
     </form>
 </div>
 
-
+<!-- 
 <style>
 .wrapper {
     width: 350px;
     padding: 20px;
 }
-</style>
+</style> -->

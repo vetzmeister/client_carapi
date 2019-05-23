@@ -10,6 +10,7 @@
     </meta>
     <meta name="keywords" content="<?php echo $keyWords ?>">
     </meta>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- STYLESHEETS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"

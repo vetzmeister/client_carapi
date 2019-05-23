@@ -53,7 +53,7 @@ session_start();
                     in.</p>
             </li>
             <li class="nav-item li_left">
-                <p class="nav-link"><a href="logout.php" class="btn logout">Sign Out</a></p>
+                <p class="nav-link"><a href="logout.php" class="btn logout p-1">Sign Out</a></p>
             </li>
         </ul>
     </div>
@@ -62,10 +62,3 @@ session_start();
 
 
 <?php } ?>
-
-<style>
-.logout {
-
-    padding: 2px 4px;
-}
-</style>

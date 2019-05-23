@@ -85,7 +85,3 @@ function filterCarsByColors($cars, $color_name) {
     }
     return $filtered_data;
 }
-
-
-
-

@@ -9,6 +9,7 @@ include ('partials/_nav.php');
     <?php
         if (isset($_GET['showroom'])){
             include ('showroom.php'); 
+            
         }
         elseif (isset($_GET['home'])){
             include ('home.php'); 
